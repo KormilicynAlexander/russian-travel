@@ -1,0 +1,10 @@
+.lead {
+    margin: 0 auto;
+    max-width: 984px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

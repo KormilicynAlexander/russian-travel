@@ -1,0 +1,32 @@
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 112%;
+    letter-spacing: 0em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        flex-direction: column;
+        min-height: calc(310px - 14px);
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .footer__links {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+    .footer__links {
+        width: 50%;
+    }
+}
