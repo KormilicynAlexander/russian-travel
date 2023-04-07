@@ -35,5 +35,10 @@
 
 3. BEM.
 
+3. GitHub Pages.
+
 ## Предстоящие обновления.
 1. Добавить новую функциональность с помощью JavaScript.
+
+## Ссылка на проект.
+https://kormilicynalexander.github.io/russian-travel/
