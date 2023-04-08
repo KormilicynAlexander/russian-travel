@@ -9,12 +9,13 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 767px) {
     .footer__links {
         flex-direction: column;
-        min-height: calc(310px - 14px);
         font-size: 24px;
     }
 }

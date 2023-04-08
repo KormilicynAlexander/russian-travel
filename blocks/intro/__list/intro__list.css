@@ -1,7 +1,7 @@
 .intro__list {
     margin: 0;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 18px;
     letter-spacing: 0em;
     max-width: 690px;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 767px) {
     .intro__list {
-    max-width: 288px;
+        max-width: 288px;
     }
 }
 
