@@ -6,6 +6,10 @@
     line-height: 28px;
 }
 
+.header__lang-link:first-of-type {
+    padding-left: 0;
+}
+
 .header__lang-link:hover {
     opacity: 0.8;
 }
@@ -13,5 +17,13 @@
 @media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
+        line-height: 20px;
+        padding: 14px 0 8px 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header__lang-link {
+        padding: 18px 0 6px 18px;
     }
 }

@@ -1,6 +1,10 @@
 .header__lang-links {
-    width: 74px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 6px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-links {
+        justify-content: unset;
+    }
 }
